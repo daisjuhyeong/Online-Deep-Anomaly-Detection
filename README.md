@@ -9,9 +9,7 @@ This repository organizes papers by year and details their specific taxonomies, 
 
 ## 📖 Taxonomy Legend
 * **OAD:** Online Anomaly Detection
-* **ODAD:** Online Drift Anomaly Detection
-* **Label:** Supervised, Unsupervised, Semi-Supervised
-* **Drift:** Explicit vs Implicit detection methods
+* **ODAD:** Online Deep Anomaly Detection
 
 ## 📌 Table of Contents
 - [2025 Papers](#2025-papers)
