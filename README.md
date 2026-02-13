@@ -11,7 +11,7 @@ A curated list of taxonomy and resources for **Online Anomaly Detection (OAD)** 
 - [2023 Papers](#2023-papers)
 - [2022 Papers](#2022-papers)
 - [2021 Papers](#2021-papers)
-- [📂 View Detailed Dataset & Feature Information](./Datasets.md)
+- [📂 View Detailed Dataset & Feature Information](./Dataset.md)
 
 ---
 
