@@ -3,7 +3,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/your-username/your-repo/graphs/commit-activity)
 
-A curated list of taxonomy and resources for **Online Anomaly Detection (OAD)** and **Online Drift Anomaly Detection (ODAD)**.
+A curated list of taxonomy and resources for **Online Anomaly Detection (OAD)** and **Online Deep Anomaly Detection (ODAD)**.
 
 ## 📌 Table of Contents
 - [2025 Papers](#2025-papers)
