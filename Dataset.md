@@ -5,76 +5,129 @@
 This page details the datasets used for evaluation in the papers listed in the main taxonomy. It includes the specific datasets and the number of features (dimensions) for each, which is critical for evaluating **scalability** and **high-dimensional handling**.
 
 ---
-
-## 2025 Papers
-
-| Model | Datasets Used | Feature Dimensions |
-| :--- | :--- | :--- |
-| **SAD** | a9a, codrna, german, icjnn1, MITFace, PCMAC, spambase, splice, svmguide3 | 123, 8, 24, 22, 361, 3290, 57, 60, 21 |
-| **EDOBS** | UCI KDD Archive (Forest Cover, EM, HPC), Tao, Stock (Upenn) | 54, 16, 7, 3, 1 |
-| **ADA-ADF** | IoT, Yahoo-A3, NAB, CEMACS | 16, 1, 1, 1 |
-| **CyberCScope** | CI'17, CCU'18 | 8, 8 |
-| **DFAS** | IDS (Tue-Fri), ISCX (0612-0617), Creditcard, Shuttle, NYTimes, IoTBot, HAR70+, Skin | 79, 79, 29, 9, 100, 115, 6, 100 |
-| **ESOD** | Temperature, Voltage, Ozone (HCS, LCS) | 1, 1, 1, 1 |
-| **INQMAD** | Cardio, Ionosphere, Mammography, Pima, Satellite, Satimage, Syntheic, KDD99, NSL, Cover, DoS, UNSW | 21, 33, 6, 8, 36, 36, 1, 121, 126, 19, 95, 122 |
-| **AdaESST** | Motor-Side Data (IM + PMSM), PCC-Side Data | 6, 3 |
-| **OODOFS** | InternetAds, Musk, SpamBase, Optdigits, NSL-DD, Reuter-EN, Cardio, Satellite, Landsat, MNIST, Amazon, Backdoor | 1555, 166, 57, 64, 122, 21531, 21, 36, 36, 100, 768, 196 |
-| **Sirloin** | IOPS, ECG, Dodgers, KPI-AIOPS, SED | 1 |
-
-## 2024 Papers
-
-| Model | Datasets Used | Feature Dimensions |
-| :--- | :--- | :--- |
-| **IEDSEM** | IoTID20, CICIDS2017 | 83, ~80 |
-| **CDAO-LSTM** | UAH DriverSet | 6 |
-| **ASOD** | NAB | 1 |
-| **AADS** | Breast Cancer, Ionosphere, SPECT | 9, 33, 22 |
-| **METER** | Ionosphere, Pima, Satellite, Mammography, BGL, NSL, KDD99, NYC Taxi, CPU, EPG, ECG, INSECTS, Synthetic | 33, 8, 36, 6, 9, 42, 41, 10, 10, 10, 10, 10, 10, 33, 784 |
-| **VAE4AS** | Sea, Circle, Sine, Vib, Fraud, Wafer | 2, 2, 2, 10, 29, 152 |
-
-## 2023 Papers
-
-| Model | Datasets Used | Feature Dimensions |
-| :--- | :--- | :--- |
-| **ADTCD** | INSECTS, SWAT, WADI, BATADAL | 33, 51, 127, 43 |
-| **GC-ADS** | NAB | 1 |
-| **ASTREAM** | KDD99 | 34 |
-| **strAEm++D** | Sea, Circle, MNIST | 2, 2, 784 |
-| **BWOAIF** | Shuttle, Smtp | 9, 3 |
-| **DBCatcher** | Tencent, Sysbench, TPCC | 14, 14, 14 |
-| **Zhang et al.** | Airline, CO2 | 1, 1 |
-
-## 2022 Papers
-
-| Model | Datasets Used | Feature Dimensions |
-| :--- | :--- | :--- |
-| **ARCUS** | MNIST, FMNIST, INSECTS, GAS, RIALTO | 784, 784, 33, 128, 27 |
-| **ADSketch** | Yahoo, AIOps18, Industy | 67, 58, 436 |
-| **Belacel** | Bank, ForestCover, HTTP, Shuttle, SMTP, Synthetic | 9, 10, 3, 9, 3, 2, 2 |
-| **Odiathevar** | UNSW-NB15, CTU13 | 47, 13 |
-| **AD-LTI** | CalIt2, Server Log, Dodgers Loop | 6, 15, 3 |
-| **iLDCBOF** | Balance Scale, Biomed, Thyroid, Annthyroid, Mammography, Ecoli, Pima, Glass, Vowels, Heart, Boston, Hepatitis, Cardio, Ionosphere, Satimage, Musk | 4, 5, 6, 6, 6, 7, 8, 9, 12, 13, 13, 19, 21, 33, 36, 166 |
-| **EADNSD** | KDD99, NSL_KDD, CIDDS-001 | 41, 41, 14 |
-| **Wahab** | DS2OS Traffic Traces | 13 |
-| **IPMOD** | Thyroid, Pima, Annthyroid, Vertebal | 6, 8, 6, 6 |
-| **MemStream** | KDD99, NSL, UNSW, DoS, Synthetic, Ionosphere, Cardio, Satellite, Satimage-2, Mammograph, Pima, Cover | 121, 126, 122, 95, 1, 33, 21, 36, 36, 6, 8, 10 |
-| **RCAD** | Probes | 6 |
-| **SCAPA** | NAB | 1 |
-| **Abououf** | PM2.5 Temperature Humidity | 15 |
-| **Uni-AD** | CTF, TC, JS_D2+D3, SMD | 49, 11, 19, 38 |
-| **Hassan** | Breast Cancer, Annthyroid, Musk, Cardiotocography | 31, 21, 168, 23 |
-| **OeSNN** | NAB, Yahoo | 4, 1 |
-| **DenStream** | Created Mininet emulator and Open vSwitch | 4 |
-
-## 2021 Papers
-
-| Model | Datasets Used | Feature Dimensions |
-| :--- | :--- | :--- |
-| **CODS** | Australian Sign Lang, Vicon Physical, KDD99, Covertype, Synthetic | 22, 27, 11, 10, 50 |
-| **ELOF** | Synthetic, Thyroid, Pendigits, Musk, Pima | 5, 6, 16, 166, 8 |
-| **MStream** | KDD99, UNSW-NB15, CIDDS-DDoS, CIDDS-Dos | 10, 47, 78, 85 |
-| **MDUAL** | STK, TAO, HPC, GAS, EM, FC | 1, 3, 7, 10, 16, 55 |
-| **OHODIN** | Australian, Balance, Banknote, cardio, credit-g, gas, glass, internet, ionosphere, irs, lymphography, magic, mammography, miniboone | 6, 4, 4, 35, 7, 128, 9, 3, 34, 4, 3, 10, 6, 50 |
-| **Kurt** | IEEE-57 Bus Power, HAPT, IoT Botnet (N-BaIoT) | 80, 561, 115 |
-| **SAND** | Simulated Engine Disks, MIT-BIH Arrhythmia | 1 |
-| **SHC** | Seeds, Chameleon DS3, Synthetic, Intel Lab Sensor, KDD99 | 7, 2, 2, 2, 4, 41 |
+| Dataset Name | Number of Instances | Number of Features | Anomaly Rate | Description | Data Type | Models | URL |
+|:---|:---|:---|:---|:---|:---|:---|:---|
+| CIDDS-DDoS | 7,900,000 | 83 | 7.00% | UNSW-NB 15 dataset was created by the IXIA PerfectStorm tool in the Cyber Range Lab of UNSW Canberra for generating a hybrid of real modern normal activities and synthetic contemporary attack behaviours. | Online Anomaly Detection | MStream | https://www.researchgate.net/publication/366208088_Efficient_Machine_Learning_Model_for_DDoS_Detection_System_Based_on_Dimensionality_Reduction |
+| SPECT | 267 | 22 | ~20.6% | Binary classification dataset diagnosing abnormal cardiac states from tomographic imagery. | Static Classification | AADS | https://archive.ics.uci.edu/dataset/95/spect+heart |
+| Breast Cancer | 683 | 9 | 35% | This is one of three domains provided by the Oncology Institute that has repeatedly appeared in the machine learning literature. (See also lymphography and primary-tumor.) | Static Classification | AADS, Hassan et al. | https://shebuti.com/outlier-detection-datasets-odds/ |
+| PM2.5 Temperature Humidity | 262080 | 15 | ~0.39% | Hourly environmental sensor logs measuring air quality (PM2.5) and meteorology, heavily impacted by seasonal concept drift. | Online Anomaly Detection | Abououf et al. | M. Badura, P. Batog, A. Drzeniecka-Osiadacz, and P. Modzel, “Evaluation of low-cost sensors for ambient PM2.5 monitoring,” J. Sens., vol. 2018, Oct. 2018, Art. no. 5096540. |
+| CalIt2 | 10,080 | 4 |  | 30-minute interval pedestrian flow data testing detection of multi-seasonal deviations. | Time series Classification | AD-LTI | https://archive.ics.uci.edu/dataset/156/calit2+building+people+counts |
+| Server Log |  | 15 | 14.60% | Enterprise application server metrics subject to extreme multi-seasonality and dynamic thresholds. | Online Anomaly Detection | AD-LTI | AD-LTI |
+| CEMACS | 43318 | 2 | 1.70% | This dataset records ocean surface temperatures over two years at 30-minute intervals from the Centre for Marine and Coastal Studeis | Time Series | ADA-ADF | https://www.sciencedirect.com/science/article/pii/S1574954122001224 |
+| NAB | Varies | 1 | Defined by Window | A collection of 58 time-series files explicitly designed and scored for real-time anomaly detection. | Online Anomaly Detection | ADA-ADF, ASOD, GC-ADS, SCAPA, OeSNN, METER, ADSketch | (((((((((((((https://github.com/numenta/NAB)))))))))))) |
+| IoT | 1531 | 115 |  | Network traffic from nine real IoT devices infected with Mirai and BASHLITE botnets, capturing highly skewed behavior snapshots. | Online Anomaly Detection | ADA-ADF(ODAD), DFAS, Kurt et al. | https://ieeexplore.ieee.org/document/9101685 |
+| Motor-Side Data |  | 5 |  | Induction Motor data with simulated attacks mimicing certain fault responses based on previous works. | Synthetic | AdaESST | https://www.kaggle.com/datasets/danielpetrova/industrial-motor-data |
+| Industry | 4394880 | 1 | 1.07% | Real-world online service KPIs testing the real-time throughput limits of pattern-sketching algorithms. metrics (e.g., Application CPU Usage, Interface Throughput, Request Timeout Number, Round-trip Delay) from a large-scale online service (we conceal the name for privacy concern) of Huawei Cloud | Online Anomaly Detection | ADSketch | ADSkectch |
+| SWaT | 946,719 | 51 | ~11.98% | Industrial control systems dataset containing network traffic and sensor data from a water treatment plant. | Online Anomaly Detection | ADTCD | https://itrust.sutd.edu.sg/itrust-labs_datasets/dataset_info/ |
+| WADI | 957,372 | 127 | ~5.99% | Extension of SWaT representing a complete water distribution network with tanks and booster pumps. | Online Anomaly Detection | ADTCD | https://itrust.sutd.edu.sg/itrust-labs_datasets/dataset_info/ |
+| BATADAL | 12938 | 43 | 3.77% | Water distribution system cyber-security benchmark generated from the C-Town network for attack detection. | Online Anomaly Detection | ADTCD | https://arxiv.org/html/2504.06320v2#:~:text=We%20adopt%20the%20dataset%20split,within%20the%20water%20distribution%20network. |
+| FMNIST | 70,000 | 784 | Varies (1%) | Flattened 28x28 grayscale images of clothing; provides a structurally complex alternative to standard MNIST. | Static Classification | ARCUS |  |
+| RIALTO | 82250 | 27 | Varies (1%) | Ten of the colorful buildings next to the famous Rialto bridge in Venice are encoded in a normalized 27-dimensional RGB histogram. We obtained the images from time-lapse videos captured by a webcam with fixed position. The recordings cover 20 consecutive days during may-june 2016. Continuously changing weather and lighting conditions affect the representation. | Online Classification | ARCUS | [18] V. Losing, B. Hammer, and H. Wersing. KNN classifier with self adjusting memory for heterogeneous concept drift. In Proc. ICDM, pages 291–300, 2016. |
+| INSECTS | >1,000,000 | 33 | 1% | Optical sensor data rigorously engineered to simulate abrupt and gradual drift. Temporal dependencies exists at the distribution level | Static Classification | ARCUS, ADTCD, METER | Souza et al. (2020) |
+| GAS Sensor Arrary Drfit Dataset | 13910 | 128 | ~1.0% | Mid-dimensional subset derived from Gas Sensor Array data to challenge stream clustering algorithms. | Time series Classification | ARCUS, MDUAL, OHODIN | https://archive.ics.uci.edu/dataset/270/gas+sensor+array+drift+dataset+at+different+concentrations |
+| HTTP | 567,498 | 3 | ~0.39% | Extremely imbalanced web traffic subset heavily utilized to test baseline point-anomaly detectors. | Static Clustering | Belacel et al. | https://shebuti.com/outlier-detection-datasets-odds/ |
+| Bank | 45,211 | 16 | ~11.7% | Socio-economic telemarketing data isolating successful term deposit subscriptions as positive outliers. | Static Classification | Belacel et al., OHODIN | https://archive.ics.uci.edu/dataset/222/bank+marketing |
+| SMTP | ~95,156 | 3 | < 1.0% | Subset of KDD Cup 99 isolating SMTP connections to detect highly imbalanced point anomalies. | Online Anomaly Detection | BWOAIF, Belacel et al., | https://shebuti.com/outlier-detection-datasets-odds/ |
+| UAH DriverSet | Varies | 6 | Varies | Continuous multidimensional driving data identifying aggressive and dangerous behaviors. | Online Anomaly Detection | CDAO-LSTM | https://www.robesafe.com/personal/eduardo.romera/uah-driveset |
+| Australian Sign Language (Auslan) | 2,565 | 22 |  | Instances of sign language movements captured via position trackers and instrumented gloves; adapted for HAR anomalies. | Time series Classification | CODS | https://archive.ics.uci.edu/ |
+| Vicon Physical Action | 3,000 | 27 | Varies | Kinematic data of human activities used to detect aggressive behaviors as anomalies in security applications. | Time series Classification | CODS | https://www.researchgate.net/publication/322675054_Human_Activity_Recognition_for_Mobile_Robot |
+| CCU'18 | >10,000,000 | 80 | Varying | Evolution of CI'17 generated on AWS; challenges the extreme scaling limits of multi-aspect anomaly detection. | Online Anomaly Detection | CyberCScope | https://www.unb.ca/cic/datasets/ids-2018.html |
+| Tencent | 5529600 | 14 | 3.11% | Cloud database metrics tracking performance indicators to detect service degradation and anomalies. | Online Anomaly Detection | DBCatcher | https://cloud.tencent.com/product/dbbrain |
+| Sysbench | 648000 | 14 | 4.21% | Synthetic performance metrics from database load testing used to inject controlled latency and CPU anomalies. | Online Anomaly Detection | DBCatcher | https://cloud.tencent.com/product/dbbrain |
+| TPCC | 648000 | 14 | 4.06% | Simulated e-commerce transactional workloads utilized to test anomaly differentiation from legitimate traffic spikes. | Online Anomaly Detection | DBCatcher | https://cloud.tencent.com/product/dbbrain |
+| Mininet Emulator & Open vSwitch | Varies | Varies | Varies | Custom simulated SDN (Software Defined Network) setup used for generating specific cyber attack scenarios. | Synthetic | DenStream | https://github.com/mininet |
+| ISCX 2012 | >2,000,000 | 20 | Varies | Foundational multi-day network intrusion dataset representing normal profiles and simulated attacks. | Online Anomaly Detection | DFAS | https://www.unb.ca/cic/datasets/ids.html |
+| NYTimes | 300,000 | ~100k (reduced) | Synthesized | Massive text-based bag-of-words matrix used to test subspace clustering and the curse of dimensionality. | Static Classification | DFAS | https://archive.ics.uci.edu/dataset/164/bag+of+words |
+| HAR70+ | 2259597 | 6 | Varies | Wearable accelerometer/gyroscope streams isolating abrupt, anomalous activities like falls in older adults. | Time Series | DFAS | https://archive.ics.uci.edu/dataset/780/har70 |
+| Skin | 245,057 | 3 | ~20.8% | RGB pixel arrays classifying skin vs. non-skin; frequently expanded into larger feature spaces via embedding. | Static Classification | DFAS | https://archive.ics.uci.edu/dataset/229/skin+segmentation |
+| Shuttle | 58,000 | 9 | ~7.15% | Space shuttle radiator positions; standard benchmark where non-majority classes are aggregated into an anomaly class. The order was randomized | Static Classification | DFAS, BWOAIF, Belacel et al. | https://archive.ics.uci.edu/dataset/148/statlog+shuttle |
+| CIDDS-001 | 134,240 | 7 | 8.40% | CIDDS-001 covers the latest publicly available datasets for researchers working in the field of anomaly detection. These datasets include three logs files and two kinds of traffic data, one of them collected from OpenStack and the other collected from External Server. Both of the collected traffic data comprises four weeks of captured traffic data. | Online Anomaly Detection | EADNSD | EADNSD |
+| KDD Cup '99 | ~4,800,000 | 41 | ~46.5% | Refined version of KDD99 that eliminates redundant blocks to stop model overfitting. | Online Anomaly Detection | EDOBS, INQMAD, METER, ASTREAM, EADNSD, MemStream, CODS, Mstream, SHC, OODOFS | https://www.unb.ca/cic/datasets/nsl.html |
+| UCI HPC | 2,075,259 | 9 | Varying | One-minute sampling of household electricity usage over 4 years; tests adaptability to seasonal drift. | Time Series | EDOBS, MDUAL | (https://archive.ics.uci.edu/ml/datasets/individual+household+electric+power+consumption) |
+| TAO | 575,648 | 3 |  | Real-time meteorological and oceanographic sensor data from moored buoys monitoring climate phenomena. | Time Series | EDOBS, MDUAL | http://www.pmel.noaa.gov |
+| UPenn Stock | 1,048,575 | 1 | Varying | Univariate financial trading data used strictly for testing 1D distance-based anomaly detection bounds. | Time series Classification | EDOBS, MDUAL | (https://wrds-www.wharton.upenn.edu/) |
+| Pendigits | 6,870 | 16 | 2.27% | Trajectory point data of handwritten digits, adapted for unsupervised anomaly detection by isolating specific digit classes. | Static Classification | ELOF | https://shebuti.com/pendigits-dataset/ |
+| Temperature | 9678 | 1 | Varies | REPSOL service stations’ network, where, taking a single service station, and thanks to the Empowering Life by Internet of Things (ELIoT) initiative, IoT messages are collected from more than 300 sensors, which allow the monitoring of vaults, refrigerators, freezers, air coolers, and other assets, such as the electrical panels that supply them | Time Series | ESOD | ESOD |
+| Voltage | Varies | 1 | Varies | Also one of REPSOL private data | Time Series | ESOD |  |
+| Ozone | ~5627601 | 9 |  | High-frequency measurements of nitrogen dioxide (NO), tropospheric ozone (O) and nitrogen monoxide (NO) using electrochemical low-cost sensors. | Time Series | ESOD | https://www.sciencedirect.com/science/article/pii/S2352340922007934 |
+| IoTID20 | 625,783 | 12 | Varies (DoS: 10.14%, All types: 93.6%) | Smart home network traffic simulating Mirai, DoS, and MITM attacks on consumer devices. | Online Anomaly Detection | IEDSEM | https://www.researchgate.net/publication/341169837_A_Scheme_for_Generating_a_Dataset_for_Anomalous_Activity_Detection_in_IoT_Networks |
+| CIC-IDS2017 | ~2,800,000 | 78 | ~20.0% | Foundational cybersecurity dataset containing modern network intrusions; often structured as tensors. | Online Anomaly Detection | IEDSEM, CybserCScope, DFAS | https://www.unb.ca/cic/datasets/ids-2017.html |
+| Biomed | 194 | 5 | 34% | High-dimensional genomic and blood sample data used for identifying biomarker-driven pathological anomalies. (Healthy vs. Diseased) | Binary Classification | iLDCBOF | https://rduin.nl/prhtml/prdatasets/biomed.html |
+| Ecoli | 336 | 7 | 2.6& | Isolates rare protein localization sites to test algorithms against tight geometric clusters. (cp, im, imU, om, pp vs. imS, imL, omL) | Static Classification | ILDCBOF | https://shebuti.com/ecoli-dataset/ |
+| Vowels | 9961 | 12 | 10% | A time-series speech dataset used for speaker recognition and detecting anomalous phonetic transitions. (6,7,8 vs. 1) | Time series Classification | ILDCBOF | https://shebuti.com/japanese-vowels-dataset/ |
+| Heart Disease | 303 | 13 | 4.40% | A diagnostic dataset used to identify pathological heart conditions as outliers within a screening population. Presence vs. Absence | Binary Classification | ILDCBOF | https://archive.ics.uci.edu/dataset/96/spectf+heart |
+| Boston | 506 | 13 | 9.40% | A classic regression dataset where high-leverage outliers in structural or environmental attributes are analyzed. (Price > or <35k) | Static Classification | ILDCBOF | https://www.kaggle.com/datasets/vikrishnan/boston-house-prices |
+| Hepatitis | 155 | 19 | 20% | Severely constrained clinical dataset evaluating survival-risk anomalies against extreme data scarcity. (Live vs. Die) | Binary Classification | ILDCBOF | https://archive.ics.uci.edu/dataset/46/hepatitis |
+| Thyroid Disease | 7,200 | 5 | 2.47% | Medical diagnostic data utilized to determine whether a patient is hypothyroid, employing severe class downsampling. (Normal vs. Hyperfunction and Subnormal functioning) | Static Classification | ILDCBOF, IPMOD, ELOF | https://archive.ics.uci.edu/dataset/102/thyroid+disease |
+| Annthyroid | 7,200 | 6 | ~7.42% | Healthcare dataset predicting thyroid conditions using mixed continuous and categorical data. (Normal vs. Hyperfunction and Subnormal functioning) | Static Classification | ILDCBOF, IPMOD, Hassan et al. | https://shebuti.com/annthyroid-dataset/ |
+| Balance Scale | 625 | 4 | ~8.0% | Psychological experiment simulation where the rare "Balanced" state serves as a dense anomaly cluster. (Left vs. Balanced) | Static Classification | iLDCBOF, OHODIN | https://archive.ics.uci.edu/dataset/12/balance+scale |
+| Glass | 214 | 9 | 42.00% | Small criminological dataset classifying glass types based on multi-dimensional oxide content. (Building windows float processed vs. rest) | Static Classification | ILDCBOF, OHODIN | https://archive.ics.uci.edu/dataset/42/glass+identification |
+| Ionosphere | 351 | 33 | 35.90% | High-frequency phased array radar returns;The targets were free electrons in the ionosphere. "Good" radar returns are those showing evidence of some type of structure in the ionosphere. "Bad" returns are those that do not; their signals pass through the ionosphere. (Good vs. Bad) | Binary Classification | INQMAD, AADS, METER, ILDCBOF, MemStream, OHODIN, | https://klausvigo.github.io/kknn/reference/ionosphere.html |
+| Satimage | 5803 | 36 | 1.20% | Coming from the previous Satellite dataset, here class 2 has been downsampled and considered as outliers, while the other classes are labeled as normal data. This dataset and the latter came from ODDS virtual library. (1,3,4,5,7 vs. 2) | Static Classification | INQMAD, ILDCBOF, MemStream |  |
+| Synthetic |  |  |  |  | Synthetic | INQMAD, METER, Belacel etl al., CODS, ELOF |  |
+| Pima | 768 | 9 | 34.90% | he objective of the dataset is to accurately predict whether or not, a patient has diabetes, based on multiple features included in the dataset. (Healthy vs. diabetes) | Binary Classification | INQMAD, METER, ILDCBOF, IPMOD, MemStream, ELOF | https://www.openml.org/search?type=data&sort=runs&id=43483&status=active |
+| Mammography Dataset | 11,183 | 6 | 2.30% | Radiomic features extracted from digital mammograms to detect malignant calcifications; emphasizes the critical need for high recall (Non-calcification vs. Calcification | Binary Classification | INQMAD, METER, ILDCBOF, MemStream, OHODIN | http://odds.cs.stonybrook.edu/mammography-dataset/ |
+| UNSW-NB15 | 2,540,044 | 49 | ~13.0% | A modern cyber dataset blending realistic background traffic with 9 contemporary attack families, challenging algorithms with low-footprint exploits. | Online Anomaly Detection | INQMAD, Odiathevar et al., MemStream, Mstream | https://research.unsw.edu.au/projects/unsw-nb15-dataset |
+| Cardio | 1,831 | 21 | 9.60% | Clinical telemetry extracted from fetal heart rate monitors; challenges models to isolate subtle pathological deviations from natural biological variance. (Normal vs. Pathologic) | Static Classification | INQMAD, OODOFS, ILDCBOF, MemStream, Hassan et al., OHODIN | http://odds.cs.stonybrook.edu/cardiotocography-dataset/ |
+| Satellite | 6,435 | 36 | Varies (1.2% - 31%) | Multi-spectral space imagery; evaluates spatial terrain outliers like rare crop yields. | Static Classification | INQMAD, OODOFS, METER, MemStream | https://archive.ics.uci.edu/dataset/146/statlog+landsat+satellite |
+| Vertebral | 310 | 6 | ~32.0% | Orthopedic biomechanical dataset utilizing precise pelvic geometry to isolate structural abnormalities. | Static Classification | IPMOD | Berthonnaud et al. (2014) |
+| IEEE 57-Bus Power System |  |  |  | Simulated power grid network telemetry utilized to benchmark the continuous detection of stealthy False Data Injection (FDI) attacks. | Binary Classification | Kurt et al. | Kurt et al. |
+| Human Activities & Postural Transitions (HAPT) | 10,929 | 561 | Varies | Smartphone accelerometer and gyroscope telemetry capturing basic human activities and the transient postural transitions between them. | Time series Classification | Kurt et al. | https://archive.ics.uci.edu/dataset/341/smartphone+based+recognition+of+human+activities+and+postural+transitions |
+| EM | 1000000 | 16 |  | "EM" (Ethylene-Methane) sub-dataset is defined in GAS dataset. | Time series Classification | MDUAL | https://archive.ics.uci.edu/dataset/322/gas+sensor+array+under+dynamic+gas+mixtures |
+| MemStream Synthetic Dataset (Syn) | 10,000 | 1 | 10.00% | A mathematically constructed superposition of sinusoidal waves injected with Gaussian noise to simulate both gradual and abrupt concept drift. | Synthetic | MemStream | ((https://github.com/Stream-AD/MemStream))) |
+| Forest Cover | 581,012 | 54 | ~0.47% - 1.0% | Classification of pixels into 7 forest cover types based on attributes such as elevation, aspect, slope, hillshade, soil-type, and more. | Static Classification | MemStream, EDOBS, Belacel et al., MDUAL, INQMAD, CODS | (https://archive.ics.uci.edu/ml/datasets/covertype) |
+| BGL | 4,747,963 | 9 | ~7.3% | Massive high-performance computing system logs used to identify fatal operational failures via log messages. | Online Anomaly Detection | METER | https://www.researchgate.net/publication/354779473_A2Log_Attentive_Augmented_Log_Anomaly_Detection |
+| M.T. A.T. | Varies | 1 | Varies | Industrial temperature readings capturing planned shutdowns and catastrophic faults. | Online Anomaly Detection | METER | Ahmad et al. (2017) |
+| NYC Taxicab | Varies | 1 | Varies | Tracks 30-min taxi passenger intervals to detect real-world contextual anomalies. | Online Anomaly Detection | METER | Ahmad et al. (2017) |
+| CPU Utilization | Varies | 1 | Varies | Server utilization tracking evaluating abrupt spikes signaling DoS or traffic surges. | Online Anomaly Detection | METER | Ahmad et al. (2017) |
+| EPG | 30,000 | 10 | 0.17% | Physiological electrode data tracking tongue-to-palate contact during speech. | Static Classification | METER | METER |
+| CICIDS-DoS | 1,050,000 | 95 | 5% | Enormous flow-based dataset simulating DoS and brute force attacks in a small business network. | Online Anomaly Detection | Mstream, MemStream | MemStream, https://www.scitepress.org/papers/2018/66398/66398.pdf |
+| CTU-13 | 50888256 | 79 | 4.55% | 13 cybersecurity scenarios capturing complex, multi-stage botnet traffic mixed with normal behavior. | Online Anomaly Detection | Odiathevar et al. | [61] S. Garcia, M. Grill, J. Stiborek, and A. Zunino, “An empirical comparison of botnet detection methods,” Comput. Secur., vol. 45, pp. 100–123, 2014. |
+| Creditcard | 1,000 | 7 | 0.17% | Extreme class-imbalance Kaggle benchmark featuring European credit card transactions transformed via PCA. | Static Classification | OHODIN | Dal Pozzolo et al. (2015) |
+| Statlog (Australian Credit) | 690 | 14 | 44% | Balanced financial dataset modeling credit card approval dynamics, demanding low false positive margins. | Static Classification | OHODIN | https://archive.ics.uci.edu/dataset/143/statlog+australian+credit+approval |
+| Banknote Authentication | 1,372 | 4 | ~44.5% | Variance, skewness, and kurtosis features extracted from Wavelet Transforms of genuine and forged banknotes. | Static Classification | OHODIN | https://archive.ics.uci.edu/dataset/267/banknote+authentication |
+| Iris Dataset (iris) | 150 | 4 | 33% | Classic botanical dataset divided into three classes, frequently downsampling one to test clustering-based anomaly detection. | Static Classification | OHODIN | https://archive.ics.uci.edu/dataset/53/iris |
+| Lymphography Domain | 148 | 19 | 4.10% | Clinical data aimed at predicting normal vs. abnormal lymphography results from an extremely small patient sample. | Binary Classification | OHODIN | https://archive.ics.uci.edu/dataset/63/lymphography |
+| MAGIC Gamma Telescope | 19,020 | 10 | 35.16% | Simulated high-energy gamma particles in an atmospheric Cherenkov telescope, classifying signal versus background noise. | Static Classification | OHODIN | https://archive.ics.uci.edu/dataset/159/magic+gamma+telescope |
+| MiniBooNE Particle ID | 130,064 | 50 | 28.00% | Fermilab high-energy physics dataset utilized to distinguish rare electron neutrino events from background muon neutrinos. | Binary Classification | OHODIN | https://archive.ics.uci.edu/dataset/199/miniboone+particle+identification |
+| InternetAds | 3,279 | 1,558 | ~14.0% | This dataset represents a set of possible advertisements on Internet pages. The features encode the geometry of the image (if available) as well as phrases occuring in the URL, the image's URL and alt text, the anchor text, and words occuring near the anchor text. The task is to predict whether an image is an advertisement ("ad") or not ("nonad"). | Binary Classification | OODOFS | https://archive.ics.uci.edu/dataset/51/internet+advertisements |
+| Optdigits | 5,620 | 64 | 3.83 | preprocessing programs made available by NIST to extract normalized bitmaps of handwritten digits from a preprinted form. From a total of 43 people, 30 contributed to the training set and different 13 to the test set. 32x32 bitmaps are divided into nonoverlapping blocks of 4x4 and the number of on pixels are counted in each block. | Static Classification | OODOFS | Alpaydin (1998) |
+| Reuter-EN | >21,000 | ~21,531 | 43.13 | Massive sparse text corpus from keras widely used for text categorization research. | Static Classification | OODOFS | https://keras.io/api/datasets/reuters/ |
+| Amazon | 1500 | 10000 |  | Natural language product review streams utilized for sentiment/spam detection. | Static Classification | OODOFS | https://archive.ics.uci.edu/dataset/215/amazon+commerce+reviews+set |
+| Backdoor | 95329 | 196 | 2.44 | Extracted cybersecurity benchmark isolating stealthy, low-footprint network access. | Online Anomaly Detection | OODOFS | https://github.com/X1aoLian/OODOFS/tree/main/data |
+| Statlog (Landsat Satellite) Dataset | 6,435 | 36 | 31.60% | Multi-spectral pixel values from 3x3 spatial neighborhoods flattened into tabular data to identify anomalous terrestrial soil types. | Static Classification | OODOFS | https://archive.ics.uci.edu/dataset/146/statlog+landsat+satellite |
+| Internet Advertisements (Ads) | 3,279 | 1,555 | 14.00% | High-dimensional data encoding geometry and phrases from web page URLs to classify banner ads against standard content. | Static Classification | OODOFS | https://archive.ics.uci.edu/dataset/51/internet+advertisements |
+| Musk | 6,598 | 166 | ~3.5% | Molecular conformation data; evaluates tight, non-linear hypersphere boundaries. (j146, j147,252) vs 213,211)) | Static Classification | OODOFS, ILDCBOF, Hassan et al., ELOF | https://archive.ics.uci.edu/dataset/75/musk+version+2 |
+| MNIST | 70,000 | 784 | 9.21 | 28x28 grayscale digits; the foundational baseline for vision-based autoencoders. | Static Classification | OODOFS, strAEm++D, ARCUS |  |
+| Probes | ~1000000 | 10 | 10% | RTT, RSRP, RSRQ from 10 probes recorded every second for two weeks. Each dataset has training and testing subsets. Anomalies are presented in testing dataset. However, for HTM experiments the training datasets contain anomalies as well. Anomalies are being labelled based on the data distribution considering the top %10 as anomalies | Time Series | RCAD |  |
+| a9a | 48,842 | 123 | ~23.8% | Expanded socioeconomic census data predicting income brackets; heavily utilized to test sparse online learning frameworks. | Static Classification | SAD | (http://archive.ics.uci.edu/ml/datasets/Adult) |
+| codrna | 331,152 | 8 | 33.30% | Bioinformatics data mapping non-coding RNAs; evaluates extreme instance-to-feature imbalances in density estimators. | Static Classification | SAD | (https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/) |
+| ijcnn1 | 141,691 | 22 | ~9.6% | Engine misfire and abnormal behavior data; tests mathematical robustness against input signal glitches and oscillations. | Online Anomaly Detection | SAD | (https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/) |
+| MITFace | 6,977 | 361 | ~35.0% - 50.0% | Flattened image pixel features distinguishing faces from non-faces; evaluates hypersphere boundaries in image-based anomaly detection. | Static Classification | SAD | https://github.com/galeone/mlcnn/blob/master/mitcbcl/README |
+| PCMAC | 4,889 | 3,290 | ~2.0% | High-dimensional, highly sparse bag-of-words text data; tests algorithmic vulnerability to the curse of dimensionality. | Static Classification | SAD | (http://vikas.sindhwani.org/svmlin.html) |
+| spambase | 4,601 | 57 | ~39.4% | Word and character frequency percentages of email text; highly susceptible to linguistic adversarial concept drift. | Static Classification | SAD | https://www.kaggle.com/datasets/nandaprasetia/csv-20newsgroups |
+| splice | 3,190 | 60 | ~24.0% - 25.0% | Sequential DNA base pair data locating exon-intron boundaries; demands models capable of sequential dependency tracking. | Time Series | SAD | (https://archive.ics.uci.edu/dataset/69/molecular+biology+splice+junction+gene+sequences) |
+| svmguide3 | 1,243 | 21 | ~25.0% | Classic binary classification benchmark explicitly engineered to test nonlinear transformations and RBF kernel parameterization. | Binary Classification | SAD | (https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/) |
+| German credit | 1,000 | 24 | 30.00% | Credit risk profiles containing asymmetric cost matrices penalizing false negatives; the gold standard for cost-sensitive learning. | Static Classification | SAD, DFAS | https://archive.ics.uci.edu/ml/datasets/Statlog+(German+Credit+Data |
+| MIT-BIH Supraventricular Arrhythmia (MBA) | ~200,000 | 2 | 0.14% | Electrocardiogram recordings containing instances of supraventricular contractions or premature heartbeats. | Time series Classification | SAND | https://archive.physionet.org/physiobank/database/svdb/ |
+| UCI Seeds | 210 | 7 |  | Geometrical properties of wheat kernels, often adapted for anomaly detection by downsampling specific classes. | Static Classification | SHC | https://archive.ics.uci.edu/dataset/236/seeds |
+| Intel Berkeley Laboratory Sensor (IBRL) | ~2,300,000 | 8 |  | Real-world wireless sensor network deployment tracking temperature, humidity, light, and voltage; tests robust thresholding. | Time series Classification | SHC | https://www.kaggle.com/datasets/divyansh22/intel-berkeley-research-lab-sensor-data |
+| Chameleon | 8000 | 2 |  | synthetically generated 2D spatial datasets (labeled DS1–DS8 in the broader Chameleon project) | Synthetic Static Clustering | SHC | Karypis, G., Han, E. H., & Kumar, V. (1999). Chameleon: Hierarchical clustering using dynamic modeling. Computer, 32(8), 68–75. |
+| IOPS | 100679 | 1 | 1.80% | non-periodic time series reflecting server performance metrics. | Online Anomaly Detection | Sirloin | https://vldb.org/pvldb/vol15/p1779-wenig.pdf |
+| Dodgers | 50,400 | 4 |  | Highway traffic counts over 25 weeks identifying spikes caused by events or sensor failure. | Time Series | Sirloin, AD-LTI | https://archive.ics.uci.edu/dataset/157/dodgers+loop+sensor |
+| KPI-AIOPS | 5922913 | 1 | 2.26% | Server KPI logs (e.g., CPU, latency) testing detection of subtle degradations in IT operations. | Online Anomaly Detection | Sirloin, ADSketch | https://arxiv.org/pdf/1906.03821 |
+| ECG | Varies | 141 | Varies | Ambulatory electrocardiogram recordings isolating irregular heartbeats as subsequence anomalies. | Time Series | Sirloin, METER | Moody & Mark (2001) |
+| SED | 100000 |  |  | Telemetry from rotational engine simulations explicitly testing streaming subsequence mapping. Sampling rate of 1 MHz | Online Anomaly Detection | Sirloin, SAND | https://journals.sagepub.com/doi/full/10.1177/1475921710395811 |
+| CTF | 19700000 | 49 | 5.64% | Typically encompasses either "Capture The Flag" network traffic or Linux kernel tracing events (via LTTng) for CPU/memory profiling. | Online Anomaly Detection | Uni-AD | M. Sun, Y. Su, S. Zhang, Y. Cao, Y. Liu, D. Pei, W. Wu, Y. Zhang, X. Liu, and J. Tang, “CTF: anomaly detection in high-dimensional time series with coarse-to-fine model transfer,” in 40th IEEE Conference on Computer Communications, INFOCOM 2021, Vancouver, BC, Canada, May 10-13, 2021. IEEE, 2021, pp. 1–10. |
+| Jump Start | 7,387,200 | 19 | 5% | A five-week-long open dataset collected from 28 online service systems (e.g., searching, ranking) sampled once per minute for online service/server monitoring | Online Anomaly Detection | Uni-AD | https://www.usenix.org/system/files/atc21-ma.pdf |
+| Server Machine Dataset (SMD) | 1,416,825 | 38 | 4.16% | 5-week resource utilization logs (CPU, memory, disk I/O) from 28 machines at a major Internet company. | Online Anomaly Detection | Uni-AD | https://github.com/NetManAIOps/OmniAnomaly |
+| TC | 5040000 | 11 | 0.22% | TC data contains machine monitoring metrics such as the CPU usage, the memory usage and the network speed. Anomalies in TC data are labelled according to information from incident tickets. | Online Anomaly Detection | Uni-AD | Uni-AD |
+| Sine | 1000000 | 2 | 50% | Synthetic data producing non-linear boundary shifts using sine functions. | Synthetic online anomaly detection | VAE4AS | J. Gama, P. Medas, G. Castillo, and P. Rodrigues, “Learning with drift detection,” in Brazilian Symposium on Artificial Intelligence. Springer, 2004, pp. 286–295. |
+| Vib | 22500 | 10 |  | High-frequency accelerometer data isolating faults for predictive maintenance. | Time Series | VAE4AS | VAE4AS created it |
+| Wafer | 7164 | 152 | ~10.6% | It originates from the semiconductor manufacturing industry and is specifically designed to distinguish between "Normal" and "Abnormal" fabrication processes. | Time Series | VAE4AS | https://www.cs.cmu.edu/~bobski/pubs/tr01108-twosided.pdf |
+| Fraud | 284807 | 30 | 0.17% | The dataset contains transactions made by credit cards in September 2013 by European cardholders. It presents transactions that occurred in two days, where there are 492 frauds out of 284,807 transactions | Online Anomaly Detection | VAE4AS | A. Dal Pozzolo, O. Caelen, R. A. Johnson, and G. Bontempi, “Calibrating probability with undersampling for unbalanced classification,” in Computational Intelligence, 2015 IEEE Symposium Series on. IEEE, 2015, pp. 159–166. |
+| SEA | 15000 | 2 | ~10% | Synthetic stream injecting abrupt drift via shifting mathematical thresholds. Sytnehtically created to simulate concept drift. | Synthetic online anomaly detection | VAE4AS, strAEm++D | https://www.researchgate.net/publication/221653408_A_Streaming_Ensemble_Algorithm_SEA_for_Large-Scale_Classification |
+| Circle | 100000 | 2 | 50% | Spatial stream generator mimicking geometric drift by expanding/contracting radii. | Synthetic online anomaly detection | VAE4AS, strAEm++D | J. Gama, P. Medas, G. Castillo, and P. Rodrigues, “Learning with drift detection,” in Brazilian Symposium on Artificial Intelligence. Springer, 2004, pp. 286–295. |
+| DS2OS | 357952 | 12 | 2.80% | A synthetic dataset collected from a virtually created IoT environment containing traffic traces captured from various IoT simulation sites using different types of services, including light controllers, thermometers, movement sensors, washing machines, batteries, thermostats, smart doors, and smartphones, for the purpose of anomaly and intrusion detection. Total 8 classes of attack types | Online Anomaly Detection | Wahab | https://www.kaggle.com/datasets/francoisxa/ds2ostraffictraces |
+| Airline | 130,000 | 21 |  | A survey-based dataset recording passenger satisfaction and demographics used to detect service anomalies. | Binary Classification | Zhang et al. | https://github.com/Tayalarajan7/Kaggle/blob/main/Airline%20Quality%20Ratings/Airline%20Quality%20Ratings.ipynb |
+| CO2 | 23,000 | 1 |  | A continuous time series of atmospheric carbon dioxide levels used to detect growth rate shifts and environmental anomalies. | Time Series | Zhang et al. | https://towardsdatascience.com/forecasting-atmospheric-co2-concentration-with-python-c4a99e4cf142/ |
