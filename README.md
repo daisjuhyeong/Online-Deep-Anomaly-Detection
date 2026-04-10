@@ -14,7 +14,9 @@ A curated list of taxonomy and resources for **Online Anomaly Detection (OAD)** 
 - [📂 View Detailed Dataset & Feature Information](./Dataset.md)
 
 ---
+<img width="903" height="1134" alt="image" src="https://github.com/user-attachments/assets/ceed3369-5b8c-43ea-a6ce-ebb532125009" />
 
+---
 ## 2025 Papers
 
 | Model | Paper Title | Venue | Type | Label | Drift Handling | Resources |
